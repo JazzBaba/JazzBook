@@ -5,7 +5,7 @@ A Web Application named JazzBaba That Can Downloaded Facebok Albums and uplode t
 * Login with facebook
 * Check your albums
 * Fill free to Downloaded Single ,Multiple or All Albums 
-* Do not want west your local spac? store into your google drive which ever you want
+* Do not wan't to west your local space? store into your google drive which ever you want.
 
 ### What do you need to run this
 
