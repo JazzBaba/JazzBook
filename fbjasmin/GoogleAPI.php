@@ -5,9 +5,9 @@ include_once 'lib/google-api-php-client/src/Google/Auth/OAuth2.php';
 class GoogleAPI
 {
 
-    private $ClientId = 'Enter Google Client ID'; //Google client ID
-    private $ClientSecret = 'Enter google Client Secret'; //Google client secret
-    private $RedirectURL = 'http://localhost/fbjasmin/Album.php'; //Callback URL
+    private $ClientId = '99526189653-i54unaujh37nggti9c4105n7d3ak4vrj.apps.googleusercontent.com'; //Google client ID
+    private $ClientSecret = 'l3qx1R6WEZyUkqqgKTVYXSQF'; //Google client secret
+    private $RedirectURL = 'https://jazzbook.herokuapp.com/Album.php'; //Callback URL
     private $Scope = array(
         'https://www.googleapis.com/auth/drive.file',
         'https://www.googleapis.com/auth/userinfo.email',

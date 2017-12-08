@@ -10,8 +10,8 @@ class FacebookAPI
     {
 		session_start();
         $this->FacebookObject = new \Facebook\Facebook([
-            'app_id' => 'Enter your app id',
-            'app_secret' => 'enter your app secret',
+            'app_id' => '129201304366504',
+            'app_secret' => '8fc9ee5dc60e908db7c805d2c9a53a3b',
             'default_graph_version' => 'v2.10',
         ]);
 		$this->FacebookObject->Helper = $this->FacebookObject->getRedirectLoginHelper();

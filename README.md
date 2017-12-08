@@ -1,5 +1,5 @@
 # RT-Camp Facebok Assignment
-A Web Application named JazzBaba That Can Downloaded Facebok Albums and uplode to your google drive
+A Web Application named JazzBook That Can Downloaded Facebok Albums and uplode to your google drive
 
 ## What it will do
 * Login with facebook

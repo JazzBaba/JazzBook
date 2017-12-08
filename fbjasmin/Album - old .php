@@ -205,7 +205,6 @@ aria-hidden="true">
 			<!--<button ng-click="deletefolder(file.filename)" ng-model="file.filename"  class="btn btn-secondary" data-dismiss="modal">Cancle</button>-->
 			<button class="btn btn-secondary" data-dismiss="modal">Cancle</button>
 			<input type="hidden" id="donwloadfoldername">
-			<!-- <a id="downloadurl" target="_blank" class="btn btn-primary">Ready to go</a> -->
 			<button onclick="downloadFolder()" type="button"
 					class="btn btn-primary">Ready to go
 				</button>
@@ -307,7 +306,6 @@ window.location=document.getElementById("donwloadfoldername").value;
 			$scope.downloadAlbum({data: $scope.SelectedAlbum});
 		};
 		$scope.downloadFolder = function (foldername) {
-			// window.open(foldername, '_blank');
 			$window.location = foldername;
 		};
 
@@ -359,7 +357,6 @@ window.location=document.getElementById("donwloadfoldername").value;
      		$scope.file.folder = result.data;
      		document.getElementById("donwloadfoldername").value=result.data;
      		document.getElementById("filename").innerHTML = result.data.split("/")[3];
-     		// document.getElementById("downloadurl").href=result.data;
      		$('#exampleModal').modal('show');
      	}, function (reason) {
      	});
