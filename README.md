@@ -1,4 +1,4 @@
-# RT-Camp Facebok Assignment
+# Store your memory with JazzBook (Used Facebook Graph and Google API)
 A Web Application named JazzBook That Can Downloaded Facebok Albums and uplode to your google drive
 
 ## What it will do
